@@ -37,9 +37,18 @@ export default ({ children }) => {
 				to={"/about/"}
 				css={css`
 					float: right;
+					margin-left: 0.5em;
 				`}
 			>
 				About
+			</Link>
+			<Link
+				to={"/myFiles/"}
+				css={css`
+					float: right;
+				`}
+			>
+				My Files
 			</Link>
 			{children}
 		</div>
